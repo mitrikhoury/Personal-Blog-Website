@@ -1,0 +1,140 @@
+/* blog post design */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box p {
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+.header-blog {
+    width: 100%;
+    background-color: #333;
+    color : white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+
+.content {
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post-meta {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.facts-list {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.facts-list li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    background-color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header,
+    .navbar,
+    .content,
+    .footer {
+        padding: 10px;
+    }
+
+    .post-title {
+        font-size: 2em;
+    }
+
+    .intro,
+    .facts-list li {
+        font-size: 1em;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .post-title {
+        font-size: 1.8em;
+    }
+
+    .intro,
+    .facts-list li {
+        font-size: 0.9em;
+    }
+}
