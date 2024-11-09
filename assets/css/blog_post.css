@@ -26,6 +26,9 @@ body {
     top: 100px;
     left: 10px;
 }
+.box img {
+    border-radius: 20px;
+}
 .header-blog {
     width: 100%;
     background-color: #333;
@@ -111,6 +114,20 @@ body {
         font-size: 2em;
     }
 
+    .box p , .post-meta{
+        font-size: 1.1em;
+        position: relative;
+        top :30px;
+    }
+
+    .box img {
+       
+        width: 100%; 
+        height: auto; 
+        max-width: 300px; 
+    }
+
+
     .intro,
     .facts-list li {
         font-size: 1em;
@@ -131,6 +148,18 @@ body {
 @media (max-width: 480px) {
     .post-title {
         font-size: 1.8em;
+    }
+
+    .box p , .post-meta{
+        font-size: 0.9em;
+        position: relative;
+        top :9px;
+    }
+
+    .box img {
+        width: 80%; 
+        max-width: 200px; 
+        height: auto;
     }
 
     .intro,
