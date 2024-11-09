@@ -1,0 +1,25 @@
+/* Flexbox layout for header */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Responsive grid for blog cards */
+  .blog-homepage {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-homepage {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .blog-homepage {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
