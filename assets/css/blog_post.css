@@ -74,6 +74,22 @@ nav {
 }
 
 
+.back-button button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #007bff; 
+    border-radius: 5px;
+}
+
+
+.back-button button:hover {
+    background-color: #0056b3; 
+}
+
+
 .content {
     max-width: 800px;
     background: #fff;
@@ -153,6 +169,11 @@ nav {
         max-width: 300px; 
     }
 
+    .back-button button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
 
     .intro,
     .facts-list li {
@@ -193,6 +214,11 @@ nav {
         height: auto;
     }
 
+
+    .back-button button {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
 
     .intro,
     .facts-list li {
