@@ -61,6 +61,13 @@ body {
     padding: 5px 10px;
 }
 
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
 
 .nav-link:hover {
     text-decoration: underline;
@@ -186,7 +193,7 @@ body {
         height: auto;
     }
 
-    
+
     .intro,
     .facts-list li {
         font-size: 0.9em;
