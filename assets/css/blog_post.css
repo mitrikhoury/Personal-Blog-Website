@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
@@ -16,19 +17,25 @@ body {
     align-items: center;
 }
 
+
 .box{
     display: flex;
     justify-content: space-between;
 }
+
 
 .box p {
     position: relative;
     top: 100px;
     left: 10px;
 }
+
+
 .box img {
     border-radius: 20px;
 }
+
+
 .header-blog {
     width: 100%;
     background-color: #333;
@@ -38,6 +45,7 @@ body {
     justify-content: center;
 }
 
+
 .navbar {
     width: 100%;
     max-width: 800px;
@@ -46,11 +54,13 @@ body {
     color: #fff;
 }
 
+
 .nav-link {
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
 }
+
 
 .nav-link:hover {
     text-decoration: underline;
@@ -66,26 +76,31 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+
 .post-title {
     font-size: 2.5em;
     color: #333;
     margin-bottom: 10px;
 }
 
+
 .post-meta {
     color: #555;
     margin-bottom: 20px;
 }
+
 
 .intro {
     font-size: 1.2em;
     margin-bottom: 15px;
 }
 
+
 .facts-list {
     list-style-type: decimal;
     padding-left: 20px;
 }
+
 
 .facts-list li {
     margin-bottom: 10px;
@@ -101,6 +116,7 @@ body {
     background-color: #333;
 }
 
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header,
@@ -110,15 +126,18 @@ body {
         padding: 10px;
     }
 
+
     .post-title {
         font-size: 2em;
     }
+
 
     .box p , .post-meta{
         font-size: 1.1em;
         position: relative;
         top :30px;
     }
+
 
     .box img {
        
@@ -133,16 +152,19 @@ body {
         font-size: 1em;
     }
 
+
     .navbar {
         flex-direction: column;
         align-items: center;
     }
+
 
     .nav-menu {
         display: flex;
         flex-direction: column;
         gap: 5px;
     }
+
 }
 
 @media (max-width: 480px) {
@@ -150,11 +172,13 @@ body {
         font-size: 1.8em;
     }
 
+
     .box p , .post-meta{
         font-size: 0.9em;
         position: relative;
         top :9px;
     }
+
 
     .box img {
         width: 80%; 
@@ -162,6 +186,7 @@ body {
         height: auto;
     }
 
+    
     .intro,
     .facts-list li {
         font-size: 0.9em;

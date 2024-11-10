@@ -5,17 +5,20 @@ header nav {
     align-items: center;
   }
   
+
   /* Responsive grid for blog cards */
   .blog-homepage {
     display: grid;
     grid-template-columns: 1fr;
   }
   
+
   @media (min-width: 768px) {
     .blog-homepage {
       grid-template-columns: 1fr 1fr;
     }
   }
+  
   
   @media (min-width: 1024px) {
     .blog-homepage {
