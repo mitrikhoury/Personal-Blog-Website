@@ -1,0 +1,2 @@
+# Personal Blog Website
+### This project is a personal blog website, built using HTML and CSS to create a unique layout and styling for showcasing blog posts. The website includes custom images, a responsive design, and a structured file layout, aiming to provide a clean and user-friendly experience. The project focuses on applying HTML and CSS skills to create an organized, visually appealing site, adhering to best practices in web design.
