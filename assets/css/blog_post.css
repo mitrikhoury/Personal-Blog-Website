@@ -36,6 +36,37 @@ body {
 }
 
 
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .author-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .author-details h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .author-title {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .author-company {
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+
 .header-blog {
     width: 100%;
     background-color: #333;
@@ -44,6 +75,17 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.author-bio {
+    margin: 0.5rem 0;
+  }
+  
+
+  .social-sharing a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #0073e6;
+  }
 
 
 .navbar {
@@ -186,6 +228,10 @@ nav {
         align-items: center;
     }
 
+    .author-info {
+        flex-direction: column;
+        align-items: flex-start;
+      }
 
     .nav-menu {
         display: flex;
@@ -200,6 +246,10 @@ nav {
         font-size: 1.8em;
     }
 
+    .author-avatar {
+        width: 60px;
+        height: 60px;
+      }
 
     .box p , .post-meta{
         font-size: 0.9em;
